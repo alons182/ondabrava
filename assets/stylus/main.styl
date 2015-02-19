@@ -1,0 +1,376 @@
+
+@import "nib"
+@import "normalize.styl"
+@import "icons.styl"
+
+oscuro = #353535
+//rojo = #e22100
+rojo = #e23333
+gris = #b4b4b4
+
+body
+	font-family 'open sans', sans-serif
+	font-size 16px
+ul
+	margin 0
+	padding 0
+	list-style none
+label
+	display inline-block
+	font-size 14px
+	margin-bottom 2px
+	color verde2
+
+label.error
+	color rojo
+
+input[type="text"],input[type="email"],textarea, select
+	appearance none
+	background-color #fff
+	background-image linear-gradient(#eee 1%, #fff 15%)
+	border 1px solid #e3e3e3
+	color #444
+	width 100%
+	height 23px
+
+textarea
+	height auto
+
+
+button,input[type="submit"]
+	background rojo
+	border none
+	clear both
+	color white
+	cursor pointer
+	font-size 12px
+	height 26px
+	margin-right 4px
+	width 80px
+
+figure
+	margin 0
+
+footer
+	background oscuro
+	color #FFF
+
+	a
+		color #FFF
+		text-decoration none
+	.info
+		padding-top 1em
+		overflow hidden
+		padding-left: 1em
+		padding-right: 1em
+		font-size 1.2em
+
+	.info-contact
+		float left
+		i
+			font-size 1.5em
+			color rojo
+			vertical-align middle
+			float left
+		p
+			display block
+			margin-bottom 13px
+		span
+		a
+			display block
+			padding-left 2em
+
+
+	.logo-footer
+		float right
+		display none
+
+	.redes
+		border-top 1px solid #4E4E4E
+		font-size 0
+		padding-left 1rem
+		&-tunein
+			background url(../img/icon-tunein.png) center center no-repeat
+
+		a
+			display inline-block
+			padding 1rem
+			font-size 1.5rem
+			border-right 1px solid #4E4E4E
+			&:hover
+				background rojo
+			&:nth-child(1)
+				border-left 1px solid #4E4E4E
+
+	.copyright
+		background rojo
+		overflow hidden
+		color oscuro
+		padding .3em 1em
+
+
+	.onda
+		float left
+	.design
+		float right
+
+.header
+	background oscuro
+	//overflow hidden
+	padding 20px 0
+	height 40px
+	position absolute
+	left 0
+	right 0
+	z-index 999
+
+
+.logo
+	float left
+	margin-left 2em
+	margin-top -10px
+	width 100px
+	img
+		width 100%
+.menu
+	display none
+	margin-top 3.8em
+	background #2C2C2C
+	line-height 40px
+
+
+	li
+		display block
+
+
+	a
+		display block
+		color #fff
+		text-decoration none
+		padding 1em
+		transition all .3s ease
+		border-bottom 1px solid #4E4E4E
+
+		&:hover
+			color rojo
+.info-header
+	padding-top 81px
+	border-bottom: 1px solid rojo
+	overflow hidden
+
+.section-player
+	/*background url('../img/congruent_outline.png') rojo
+	display none
+	width 480px
+	height 620px
+	float left*/
+	text-align center
+	position absolute
+	top -205px
+	z-index 1001
+	left 150px
+
+
+	h1
+		color #FFF
+		display none
+.player
+	margin-top 14em
+
+	&-radio
+		//background url('../img/player2.png') no-repeat
+		width 30px
+		height 100px
+
+
+		#sm-button
+			position absolute
+			left 0
+			display block
+			cursor pointer
+
+	.icon-music
+		font-size 3em
+		color #FFF
+		animation pulse 1s infinite alternate
+	h1
+		font-weight 400
+	span
+		font-family 'Pacifico', cursive
+		animation tada 2s infinite
+
+.tunein
+	color #FFF
+	font-size 1.5em
+	background rgba(0,0,0,.8)
+	padding .5em
+
+	img
+		display inline-block
+		vertical-align middle
+
+
+.banner
+	float left
+	width 100%
+	height 180px
+
+	.slide
+		background-position center  center
+		background-repeat no-repeat
+		background-size cover, cover
+		height 180px//620px
+		width 100%
+
+	img
+		max-width 100%
+
+	#banner-pager
+		z-index 200
+		position relative
+		bottom 2em
+		text-align center
+		a
+			background-color white
+			border 1px solid white
+			border-radius 50%
+			color $oscuro
+			cursor pointer
+			display inline-block
+			font-size 12px
+			margin 0 3px
+			padding 6px
+
+			&:hover
+				padding 8px
+
+		.cycle-pager-active
+			padding 8px
+
+.main
+	background #F2F2F2
+	padding-bottom 40px
+
+.videos
+.programs
+	font-size 0
+
+	&>div
+		overflow hidden
+		border-top .5rem solid rojo
+
+.header-videos
+.header-programs
+	text-align center
+	font-size 1.3rem
+	color rojo
+
+	h2
+		margin-top 30px
+		margin-bottom 20px
+		font-weight 400
+		text-transform uppercase
+
+		&:before
+		&:after
+			color oscuro
+			font-weight 700
+
+		&:before
+			content '(( '
+		&:after
+			content ' ))'
+
+.video
+.program
+	width 100%
+	max-width 100%
+	display inline-block
+	vertical-align top
+	font-size 1rem
+	background oscuro
+	cursor pointer
+
+
+	&:hover
+		figcaption
+			background-color rgba(0, 0, 0, 0.8)
+		.program-title
+			color rojo
+			//text-shadow 2px 2px 1px rgba(255, 255, 255, 1)
+
+	iframe
+		width 100%
+		border none
+
+	figure
+		position relative
+		border-bottom 1px solid rojo
+		border-right 1px solid oscuro
+		&>div
+			height 200px
+			background-repeat no-repeat
+			background-position center center
+			background-size cover, cover
+			position relative
+
+		.info-program
+			display none
+			position absolute
+			padding 1em
+			top 8em
+			left 0
+			right 0
+			color #FFF
+			z-index 2
+	&-title
+		text-transform uppercase
+		font-weight bold
+
+
+
+	figcaption
+		background-color rgba(0, 0, 0, 0.6)
+		bottom 0
+		height 200px
+		padding-top 86px
+		box-sizing border-box
+		position absolute
+		z-index 1
+		width 100%
+		text-align center
+		color #FFF
+		transition all .2s ease
+
+
+
+#btn_nav
+	position absolute
+	color #FFF
+	right 1em
+	top 0.6em
+	cursor pointer
+	font-size 2em
+	&:hover
+		color rojo
+
+.contact
+	width 500px
+
+	h1
+		color rojo
+
+
+.message
+	position absolute
+	right 20px
+	font-weight 700
+	bottom 8px
+	&-success
+		color #54b200
+	&-error
+		color rojo
+
+
+
+@import "responsive.styl"

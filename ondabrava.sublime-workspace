@@ -1,0 +1,1474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rg",
+				"rgba	rgba"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"fi",
+				"figure"
+			],
+			[
+				"ma",
+				"main"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"os",
+				"oscuro"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"re",
+				"redes-movil"
+			],
+			[
+				"sc",
+				"scale"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"tab",
+				"tablename"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"whe",
+				"wheel"
+			],
+			[
+				"total",
+				"totalItems"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"si",
+				"siafun	anonymous-function"
+			],
+			[
+				"sear",
+				"searchText"
+			],
+			[
+				"item",
+				"items_per_page"
+			],
+			[
+				"on",
+				"on	.on()"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"se",
+				"selectedStatus"
+			],
+			[
+				"ca",
+				"categorySelected"
+			],
+			[
+				"nar",
+				"naranja"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pro",
+				"product-price"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"relat",
+				"related-products"
+			],
+			[
+				"prodc",
+				"product"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"pub",
+				"public"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"col",
+				"colorfield"
+			],
+			[
+				"color",
+				"colorfield"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"inpi",
+				"inputsSizes"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"clo",
+				"closest	.closest()"
+			],
+			[
+				"cli",
+				"click	click"
+			],
+			[
+				"catego",
+				"CategoryRepository"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"cate",
+				"category_product"
+			],
+			[
+				"read",
+				"ready	document.ready - $(function()"
+			],
+			[
+				"r",
+				"ready	document.ready - $(function()"
+			],
+			[
+				"phto",
+				"photos"
+			],
+			[
+				"new",
+				"newphotos"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"rend",
+				"renderImage"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"reu",
+				"return"
+			],
+			[
+				"c",
+				"class	class …"
+			],
+			[
+				"imag",
+				"imageUrl"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pre",
+				"prepend	.prepend"
+			],
+			[
+				"del",
+				"deletePhoto"
+			],
+			[
+				"P",
+				"Photo"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"categor",
+				"category"
+			],
+			[
+				"ale",
+				"alert-success"
+			],
+			[
+				"flas",
+				"flash_type"
+			],
+			[
+				"Se",
+				"Session-has	Session-has"
+			],
+			[
+				"INp",
+				"Input-get	Input-get"
+			],
+			[
+				"password",
+				"password_resets"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"Route",
+				"Route-get	Route-get"
+			],
+			[
+				"Redirect",
+				"Redirect-route	Redirect-route"
+			],
+			[
+				"clas",
+				"class	class …"
+			],
+			[
+				"class",
+				"class	class …"
+			],
+			[
+				"Ro",
+				"Route-group	Route-group"
+			],
+			[
+				"R",
+				"Route-get	Route-get"
+			],
+			[
+				"categ",
+				"Category"
+			],
+			[
+				"Categ",
+				"Category"
+			],
+			[
+				"Category",
+				"CategoryRepository"
+			],
+			[
+				"Valid",
+				"Validator"
+			],
+			[
+				"user",
+				"userRepository"
+			],
+			[
+				"User",
+				"UserRepository"
+			],
+			[
+				"log",
+				"loginForm"
+			],
+			[
+				"login",
+				"loginForm"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"mi",
+				"miclase"
+			],
+			[
+				"News",
+				"NewsletterList"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"Regis",
+				"RegistrarionForm"
+			],
+			[
+				"regi",
+				"registrationForm"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"bo",
+				"both"
+			],
+			[
+				"product",
+				"product-title-display"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"ic",
+				"icon-users"
+			],
+			[
+				"s",
+				"span"
+			],
+			[
+				"res",
+				"resize	.resize"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"Blade",
+				"Blade-compile	Blade-compile"
+			],
+			[
+				"w",
+				"with"
+			],
+			[
+				"Ses",
+				"Session-get	Session-get"
+			],
+			[
+				"Ap",
+				"App-run	App-run"
+			],
+			[
+				"Rour",
+				"Route-filter	Route-filter"
+			],
+			[
+				"Reso",
+				"Response"
+			],
+			[
+				"eac",
+				"each	.each()"
+			],
+			[
+				"f",
+				"find	.find()"
+			],
+			[
+				"prev",
+				"preventDefault"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 132.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"fetc",
+				"Fetch: Manage"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"fetch	",
+				"Fetch: Package"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"snippe",
+				"Snippet: script-jquery"
+			],
+			[
+				"Snippet: scri",
+				"Snippet: script-jquery"
+			],
+			[
+				"html	",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"conso",
+				"Package Control: Add Repository"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"synt:p",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn",
+				"Set Syntax: R"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: com",
+				"Snippet: Block Comment"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"su",
+				"Snippet: URL-action"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: is",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/ondabrava",
+		"/D/xampp/htdocs/ondabrava/stylus"
+	],
+	"file_history":
+	[
+		"/D/web.config",
+		"/D/application.xml",
+		"/D/xampp/htdocs/diamantetemplate/index.html",
+		"/D/Proyectos/AVOTZ/bortex/template bortex/upload.html",
+		"/D/Proyectos/AVOTZ/bortex/template bortex/js/main.js",
+		"/D/Proyectos/AVOTZ/bortex/template bortex/helpers/upload.php",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.35.03,218.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.35.03,144.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.31.52,777.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.31.52,729.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.31.07,743.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.31.07,794.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.26.17,004.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.26.16,954.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.28.46,621.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.28.46,552.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.26.16,934.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.22.24,008.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.22.23,954.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.22.23,931.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.01.38,211.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.01.38,240.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.01.38,290.eml",
+		"/D/Proyectos/AVOTZ/enerycontrol/application(old server).xml",
+		"/D/xampp/htdocs/ondabrava/index.html",
+		"/D/xampp/htdocs/ondabrava/stylus/main.styl",
+		"/D/xampp/htdocs/ondabrava/stylus/responsive.styl",
+		"/D/Documents/Visual Studio 2013/Projects/POSBASE MySQL_norman/POSBASE/bin/Release/log/2015-01-20",
+		"/D/Downloads/u_ex150119.log",
+		"/D/Downloads/Compressed/jPlayer-2.9.2/examples/blue.monday/demo-01.html",
+		"/D/Downloads/FCExporter.php",
+		"/C/Users/Alonso/Desktop/FCExporter.php",
+		"/D/xampp/Mail Sent to Local Server/2015-01-19 10.29.43,410.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-19 10.29.43,440.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-19 10.29.43,497.eml",
+		"/D/xampp/htdocs/blogavotz/wp-content/themes/avotz/po/page.php",
+		"/D/xampp/htdocs/blogavotz/wp-content/themes/avotz/po/search.php",
+		"/D/xampp/htdocs/blogavotz/wp-content/themes/avotz/languages/es_ES.po",
+		"/D/xampp/htdocs/blogavotz/wp-content/themes/avotz/languages/es_ES.mo",
+		"/D/.htaccess",
+		"/D/Proyectos/.htaccess",
+		"/C/Users/Alonso/AppData/Local/Temp/Rar$DIa0.891/application.xml",
+		"/D/Proyectos/AVOTZ/enerycontrol/energy control/consulting_ficheros/protected/application.xml",
+		"/D/github.php",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.47.01,530.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.47.01,473.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.46.00,314.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.42.24,150.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.42.24,096.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.42.24,076.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.40.05,647.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.40.05,596.eml",
+		"/D/xampp/Mail Sent to Local Server/2015-01-06 11.40.05,566.eml",
+		"/D/xampp/htdocs/ondabrava/js/main.js",
+		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/style.styl",
+		"/C/xampp/htdocs/ondabrava/css/main.css",
+		"/C/xampp/htdocs/ondabrava/js/main.js",
+		"/C/xampp/htdocs/ondabrava/stylus/icons.styl",
+		"/C/xampp/htdocs/ondabrava/ondabrava.sublime-project",
+		"/C/xampp/htdocs/ondabrava/index.html",
+		"/C/xampp/htdocs/ondabrava/stylus/responsive.styl",
+		"/C/xampp/htdocs/ondabrava/stylus/main.styl",
+		"/C/xampp/htdocs/fashionfactory/Gulpfile.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Windows/System32/drivers/etc/hosts.BackupByTuneUpPortable",
+		"/D/Downloads/ondabrava (1)/style.css",
+		"/C/xampp/htdocs/ondabrava/js/utils.js",
+		"/C/xampp/htdocs/avotz/js/utils.js",
+		"/D/Downloads/ondabrava/style.css",
+		"/C/xampp/htdocs/partytime/stylus/main.styl",
+		"/C/xampp/htdocs/partytime/css/animate.css",
+		"/C/xampp/htdocs/fashionfactory/app/views/layouts/layout.blade.php",
+		"/C/xampp/htdocs/fashionfactory/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php",
+		"/C/xampp/htdocs/fashionfactory/vendor/d11wtq/boris/lib/autoload.php",
+		"/C/xampp/htdocs/fashionfactory/node_modules/gulp-stylus/node_modules/accord/node_modules/uglify-js/lib/output.js",
+		"/C/xampp/htdocs/fashionfactory/node_modules/gulp-concat/LICENSE",
+		"/C/xampp/htdocs/fashionfactory/.gitignore",
+		"/C/xampp/htdocs/contacts3.2/public/Gulpfile.js",
+		"/C/xampp/htdocs/contacts3.2/public/package.json",
+		"/C/xampp/htdocs/contacts3.2/app/views/home.blade.php",
+		"/C/xampp/htdocs/contacts3.2/public/js/bundle.js",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/js/main.js",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/js/utils.js",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/js/jqm-config.js",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/js/views/employeelist.js",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/js/views/employeedetails.js",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/js/models/employeemodel.js",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/tpl/employee-details.html",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/index.html",
+		"/C/xampp/htdocs/backbone-directory-auth/jquerymobile/lib/iscroll.js",
+		"/C/xampp/htdocs/movil_backbone/js/models.js",
+		"/C/xampp/htdocs/movil_backbone/js/views.js",
+		"/C/xampp/htdocs/movil_backbone/js/app.js",
+		"/C/xampp/htdocs/backbone-directory-auth/readme.md",
+		"/C/xampp/htdocs/backbone-directory-auth/api/index.php",
+		"/C/xampp/htdocs/contacts3.0/public/js/app.js",
+		"/C/xampp/htdocs/contacts3.0/public/js/models.js",
+		"/C/xampp/htdocs/contacts3.0/public/js/views.js",
+		"/C/xampp/htdocs/movil_backbone/js/collections.js",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-solutions/part11/js/services/json/EmployeeService.js",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-solutions/part11/js/app.js",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/models.js",
+		"/C/xampp/htdocs/movil_backbone/index.html",
+		"/C/xampp/htdocs/movil_backbone/index.php",
+		"/D/Documents/dumps/contact3.0.sql",
+		"/C/xampp/htdocs/contacts3.0/public/.htaccess",
+		"/C/xampp/htdocs/contacts3.1/app/controllers/V1/AuthController.php",
+		"/C/xampp/htdocs/contacts3.0/app/controllers/V1/AuthController.php",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/app.js",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/EmployeeListView.js",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/HomeView.js",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/server/server.js",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/server/routes/employees.js",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/readme.md",
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/lib/pageslider.js",
+		"/D/Documents/Programacion/Ejemplos Web/Html/test simple cart/index.html",
+		"/C/xampp/htdocs/fashionfactory/app/views/pages/contact.blade.php",
+		"/C/xampp/htdocs/fashionfactory/public/stylus/main.styl",
+		"/C/xampp/htdocs/fashionfactory/public/js/main.js",
+		"/C/xampp/htdocs/fashionfactory/app/views/emails/contact.blade.php",
+		"/C/xampp/htdocs/fashionfactory/composer.json",
+		"/C/xampp/htdocs/fashionfactory/vendor/laravel/framework/src/Illuminate/Routing/Generators/stubs/show.stub",
+		"/C/xampp/htdocs/fashionfactory/app/views/products/show.blade.php",
+		"/C/xampp/htdocs/fashionfactory/vendor/predis/predis/examples/SessionHandler.php",
+		"/C/xampp/htdocs/fashionfactory/server.php",
+		"/C/xampp/htdocs/fashionfactory/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/LogicalOr.php",
+		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/scripts/gallery.js",
+		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/scripts/grid.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"upload",
+			"scale",
+			"fonts",
+			"Comercials",
+			"rojo2",
+			"') }}",
+			"{{ URL::asset('/",
+			"btn",
+			"btn-primary",
+			"btn",
+			"about",
+			"portafolio",
+			"View all",
+			"foo",
+			"Document",
+			"1.11.0",
+			"productRepository",
+			"ProductRepository",
+			"productRepository",
+			"ProductRepository",
+			"productRepository",
+			"ProductRepository",
+			"$productRepository",
+			"productRepository",
+			"ProductRepository",
+			"productRepository",
+			"http://www.avotz.com/blog/helpers/get_posts.php",
+			"unlicense",
+			"browser",
+			"msie",
+			"../images/",
+			"isotope",
+			"cycle",
+			".",
+			"foo",
+			"$foo = null",
+			"categories",
+			"category",
+			"categories",
+			"property",
+			"$user",
+			"property",
+			"user",
+			"label",
+			"exceptions",
+			"subscribe",
+			"SubscribeTo",
+			"subscribeto",
+			"subscri",
+			"curl",
+			"Username",
+			"username",
+			"Username",
+			"username",
+			"Username",
+			"username",
+			"view",
+			"$foo",
+			"$foo = null",
+			"$querySearch",
+			"furniture",
+			"type",
+			"dropdown",
+			"items",
+			"article",
+			"li",
+			".service",
+			"service",
+			"rojo",
+			"celeste",
+			".col",
+			"file_info",
+			"warnin",
+			"bootstrap",
+			"backgrid",
+			"bootstrap",
+			"<%=",
+			"%>",
+			"<%=",
+			"jquery",
+			"backbone",
+			"pageslider",
+			"posted",
+			"$.map",
+			"right",
+			"add",
+			"has",
+			"width",
+			"require",
+			"requirejs",
+			"handlebars",
+			"cycle2",
+			"shadowbox",
+			"inview",
+			"list-unstyled",
+			"overflow-scroll",
+			"Fix validation errors and try again",
+			"RewriteCond",
+			"output",
+			"control-label",
+			"control-group",
+			"main_imagen",
+			"email_address",
+			"propiedades",
+			"relative",
+			"Twitter",
+			"queryTwitter",
+			"lenght",
+			"Contact",
+			"}}",
+			"{{",
+			"Contact",
+			"jpg",
+			"$message",
+			"hentry",
+			"form-allowed-tags",
+			".border-",
+			"#logo",
+			"shape",
+			"Shape",
+			"shape",
+			"Niños",
+			"niños",
+			"123",
+			"loader",
+			"templates/verbodivino/images/banner/",
+			"description",
+			"main"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rojo",
+			"../img/colorpicker/",
+			"products",
+			"product",
+			"products",
+			"$category",
+			"user",
+			"$search",
+			"verde",
+			"{{",
+			"}}",
+			"{{",
+			"label label-default",
+			"form-group",
+			"imagen",
+			"email",
+			"contacts",
+			"Youtube",
+			"queryYoutube",
+			"Property",
+			" %>",
+			"<%=",
+			"Property",
+			"png",
+			"$body",
+			"avotz",
+			"images/banners/",
+			"shadowbox",
+			"form-group"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ondabrava.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"main",
+				"stylus\\main.styl"
+			],
+			[
+				"m",
+				"js\\main.js"
+			],
+			[
+				"resp",
+				"stylus\\responsive.styl"
+			],
+			[
+				"icon",
+				"stylus\\icons.styl"
+			],
+			[
+				"respo",
+				"stylus\\responsive.styl"
+			],
+			[
+				"main.sty",
+				"stylus\\main.styl"
+			],
+			[
+				"main.js",
+				"js\\main.js"
+			],
+			[
+				"layo",
+				"app\\views\\layouts\\layout.blade.php"
+			],
+			[
+				"main.st",
+				"public\\stylus\\main.styl"
+			],
+			[
+				"contact",
+				"app\\views\\pages\\contact.blade.php"
+			],
+			[
+				"layou",
+				"app\\views\\layouts\\layout.blade.php"
+			],
+			[
+				"icons",
+				"public\\stylus\\icons.styl"
+			],
+			[
+				"viewsprod",
+				"app\\views\\products\\index.blade.php"
+			],
+			[
+				"categorie",
+				"app\\views\\categories\\index.blade.php"
+			],
+			[
+				"main.styl",
+				"public\\stylus\\main.styl"
+			],
+			[
+				"laout",
+				"app\\views\\layouts\\layout.blade.php"
+			],
+			[
+				"contac",
+				"app\\views\\pages\\contact.blade.php"
+			],
+			[
+				"gulp",
+				"Gulpfile.js"
+			],
+			[
+				"pages.ab",
+				"app\\views\\pages\\about.blade.php"
+			],
+			[
+				"pagesc",
+				"app\\controllers\\PagesController.php"
+			],
+			[
+				"routes",
+				"app\\routes.php"
+			],
+			[
+				"navba",
+				"app\\views\\layouts\\partials\\_navbar.blade.php"
+			],
+			[
+				"about",
+				"app\\views\\pages\\about.blade.php"
+			],
+			[
+				"gul",
+				"Gulpfile.js"
+			],
+			[
+				"route",
+				"app/routes.php"
+			],
+			[
+				"pro",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"seed",
+				"app/database/seeds/DatabaseSeeder.php"
+			],
+			[
+				"categoryse",
+				"app/database/seeds/CategoryTableSeeder.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"app",
+				"app/config/app.php"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"dbprod",
+				"app/Fashion/Repos/Product/DbProductRepository.php"
+			],
+			[
+				"productco",
+				"app/controllers/ProductsController.php"
+			],
+			[
+				"productsshow",
+				"app/views/products/show.blade.php"
+			],
+			[
+				"productcontro",
+				"app/controllers/ProductsController.php"
+			],
+			[
+				"dbrepo",
+				"app/Fashion/Repos/DbRepository.php"
+			],
+			[
+				"productindex",
+				"app/views/products/index.blade.php"
+			],
+			[
+				"mainjs",
+				"public/js/main.js"
+			],
+			[
+				"carouse",
+				"public/js/vendor/jquery.contentcarousel.js"
+			],
+			[
+				"admin.js",
+				"public/js/admin.js"
+			],
+			[
+				"dbpro",
+				"app/Fashion/Repos/Product/DbProductRepository.php"
+			],
+			[
+				"addpro",
+				"app/views/admin/products/partials/_addRelatedProducts.blade.php"
+			],
+			[
+				"admin.css",
+				"public/css/admin.css"
+			],
+			[
+				"produccont",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"_relate",
+				"app/views/admin/products/partials/_addRelatedProducts.blade.php"
+			],
+			[
+				"product_for",
+				"app/views/admin/products/partials/_form.blade.php"
+			],
+			[
+				"carousel",
+				"public/js/vendor/jquery.contentcarousel.js"
+			],
+			[
+				".ht",
+				"public/.htaccess"
+			],
+			[
+				"sta",
+				"bootstrap/start.php"
+			],
+			[
+				"start",
+				"bootstrap/start.php"
+			],
+			[
+				"productre",
+				"app/Fashion/Repos/Product/DbProductRepository.php"
+			],
+			[
+				"produ",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"show",
+				"app/views/products/show.blade.php"
+			],
+			[
+				"product_form",
+				"app/views/admin/products/partials/_form.blade.php"
+			],
+			[
+				"star",
+				"bootstrap/start.php"
+			],
+			[
+				"admin/l",
+				"app/views/admin/layouts/layout.blade.php"
+			],
+			[
+				"productsform",
+				"fashionfactory/app/views/admin/products/partials/_form.blade.php"
+			],
+			[
+				"productsinde",
+				"fashionfactory/app/views/admin/products/index.blade.php"
+			],
+			[
+				"productsconto",
+				"fashionfactory/app/controllers/ProductsController.php"
+			],
+			[
+				"dashboa",
+				"fashionfactory/app/views/admin/dashboard/index.blade.php"
+			],
+			[
+				"categoriessea",
+				"fashionfactory/app/views/admin/categories/partials/_search.blade.php"
+			],
+			[
+				"productsea",
+				"fashionfactory/app/views/admin/products/partials/_search.blade.php"
+			],
+			[
+				"dasboar",
+				"fashionfactory/app/views/admin/dashboard/index.blade.php"
+			],
+			[
+				"productsedi",
+				"fashionfactory/app/views/admin/products/edit.blade.php"
+			],
+			[
+				"productsadd",
+				"fashionfactory/app/views/admin/products/partials/_addRelatedProducts.blade.php"
+			],
+			[
+				"productssera",
+				"fashionfactory/app/views/admin/products/partials/_search.blade.php"
+			],
+			[
+				"productsin",
+				"fashionfactory/app/views/products/index.blade.php"
+			],
+			[
+				"categoriesform",
+				"fashionfactory/app/views/admin/categories/partials/_form.blade.php"
+			],
+			[
+				"categoriesedit",
+				"fashionfactory/app/views/admin/categories/edit.blade.php"
+			],
+			[
+				"categoriessera",
+				"fashionfactory/app/views/admin/categories/partials/_search.blade.php"
+			],
+			[
+				"categoriesind",
+				"fashionfactory/app/views/admin/categories/index.blade.php"
+			],
+			[
+				"categoresinde",
+				"fashionfactory/app/views/categories/index.blade.php"
+			],
+			[
+				"usersedi",
+				"fashionfactory/app/views/admin/users/edit.blade.php"
+			],
+			[
+				"userssear",
+				"fashionfactory/app/views/admin/users/partials/_search.blade.php"
+			],
+			[
+				"userspartia",
+				"fashionfactory/app/views/admin/users/partials/_form.blade.php"
+			],
+			[
+				"usersin",
+				"fashionfactory/app/views/admin/users/index.blade.php"
+			],
+			[
+				"layout",
+				"fashionfactory/app/views/admin/layouts/layout.blade.php"
+			],
+			[
+				"nav",
+				"fashionfactory/app/views/layouts/partials/_navbar.blade.php"
+			],
+			[
+				"admin.d",
+				"fashionfactory/app/views/admin/dashboard/index.blade.php"
+			],
+			[
+				"index",
+				"blogavotz/index.php"
+			],
+			[
+				"styl",
+				"blogavotz/wp-content/themes/avotz/style.styl"
+			],
+			[
+				"layoue",
+				"app/views/admin/layouts/layout.blade.php"
+			],
+			[
+				"contro",
+				"app/controllers/PagesController.php"
+			],
+			[
+				"produccon",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"prod",
+				"app/controllers/Admin/ProductsController.php"
+			],
+			[
+				"viewhom",
+				"app/views/pages/home.blade.php"
+			],
+			[
+				"viewshome",
+				"app/views/pages/home.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\xampp\\htdocs\\ondabrava\\ondabrava.sublime-project"
+			],
+			[
+				"guana",
+				"C:\\xampp\\htdocs\\guanacasteviajes\\guanacasteviajes.sublime-project"
+			],
+			[
+				"in",
+				"C:\\xampp\\htdocs\\inmobiliariacrc\\inmobiliariacrc.sublime-project"
+			],
+			[
+				"fashio",
+				"C:\\xampp\\htdocs\\fashionfactory\\fashion.sublime-project"
+			],
+			[
+				"avo",
+				"C:\\xampp\\htdocs\\avotz\\avotz.sublime-project"
+			],
+			[
+				"fa",
+				"C:\\xampp\\htdocs\\fashionfactory\\fashion.sublime-project"
+			],
+			[
+				"av",
+				"/C/xampp/htdocs/avotz/avotz.sublime-project"
+			]
+		],
+		"width": 557.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

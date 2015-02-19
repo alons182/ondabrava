@@ -1,0 +1,88 @@
+@media only screen and (min-width: 480px)
+	.banner
+		height 480px
+		.slide
+			height 480px
+		#banner-pager
+			left 2em
+			text-align left
+	.header-videos
+	.header-programs
+		font-size 2.3rem
+
+@media only screen and (min-width: 690px)
+	.header
+		position fixed
+	#btn_nav
+		display none
+	.menu
+		display block
+		float right
+		margin-right 2em
+		margin-top -1em
+		background none
+
+		li
+			display inline-block
+
+		a
+			border-bottom none
+	.section-player
+			left 0
+			top -146px
+
+			h1
+				display block
+
+
+	.player
+
+		&-radio
+			background url('../img/player2.png') no-repeat
+			width 340px
+			height 100px
+			margin 0 auto
+			position relative
+
+
+@media only screen and (min-width: 980px)
+	.banner
+		height 620px
+		.slide
+			height 620px
+
+	.video
+	.program
+		width 25%
+
+		&:hover
+			figcaption
+				height 476px
+				padding-top 370px
+				background-color rgba(0, 0, 0, .8)
+			.info-program
+				display block
+
+		figure
+			&>div,
+			iframe
+				height 475px
+				background-size cover, cover
+		figcaption
+			height 120px
+			padding-top 50px
+	footer
+		.logo-footer
+			display block
+
+@media only screen and (min-width:  1200px)
+	.section-player
+		display block
+		background url('../img/congruent_outline.png') rojo
+		width 480px
+		height 620px
+		float left
+		position static
+
+	.banner
+		width: calc(100% \- 480px);
