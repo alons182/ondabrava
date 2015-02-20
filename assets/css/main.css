@@ -593,7 +593,6 @@ footer .design {
 	height 620px
 	float left*/
   text-align: center;
-  position: absolute;
   top: -205px;
   z-index: 1001;
   left: 150px;
@@ -602,12 +601,10 @@ footer .design {
   color: #fff;
   display: none;
 }
-.player {
-  margin-top: 14em;
-}
 .player-radio {
   width: 30px;
-  height: 100px;
+  float: left;
+  margin-top: 10px;
 }
 .player-radio #sm-button {
   position: absolute;
@@ -876,9 +873,13 @@ footer .design {
   .section-player {
     left: 0;
     top: -146px;
+    position: absolute;
   }
   .section-player h1 {
     display: block;
+  }
+  .player {
+    margin-top: 14em;
   }
   .player-radio {
     background: url("../img/player2.png") no-repeat;
@@ -886,6 +887,7 @@ footer .design {
     height: 100px;
     margin: 0 auto;
     position: relative;
+    float: none;
   }
 }
 @media only screen and (min-width: 980px) {
