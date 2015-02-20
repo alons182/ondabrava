@@ -603,8 +603,11 @@ footer .design {
 }
 .player-radio {
   width: 30px;
-  float: left;
   margin-top: 10px;
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  z-index: 1000;
 }
 .player-radio #sm-button {
   position: absolute;
@@ -887,7 +890,8 @@ footer .design {
     height: 100px;
     margin: 0 auto;
     position: relative;
-    float: none;
+    left: auto;
+    top: auto;
   }
 }
 @media only screen and (min-width: 980px) {

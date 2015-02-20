@@ -697,7 +697,7 @@ footer .design,footer .onda{display:inline-block}
 .info-header{padding-top:81px;border-bottom:1px solid #e23333;overflow:hidden}
 .section-player{text-align:center;top:-205px;z-index:1001;left:150px}
 .section-player h1{color:#fff;display:none}
-.player-radio{width:30px;float:left;margin-top:10px}
+.player-radio{width:30px;margin-top:10px;position:absolute;top:10px;left:150px;z-index:1000}
 .player-radio #sm-button{position:absolute;left:0;display:block;cursor:pointer}
 .player .icon-music{font-size:3em;color:#fff;-webkit-animation:pulse 1s infinite alternate;-moz-animation:pulse 1s infinite alternate;-o-animation:pulse 1s infinite alternate;-ms-animation:pulse 1s infinite alternate;animation:pulse 1s infinite alternate}
 .player h1{font-weight:400}
@@ -747,7 +747,7 @@ footer .design{float:right}}
 .section-player{left:0;top:-146px;position:absolute}
 .section-player h1{display:block}
 .player{margin-top:14em}
-.player-radio{background:url(../img/player2.png) no-repeat;width:340px;height:100px;margin:0 auto;position:relative;float:none}}
+.player-radio{background:url(../img/player2.png) no-repeat;width:340px;height:100px;margin:0 auto;position:relative;left:auto;top:auto}}
 @media only screen and (min-width:980px){.banner,.banner .slide{height:620px}
 .program,.video{width:25%}
 .program:hover figcaption,.video:hover figcaption{height:476px;padding-top:370px;background-color:rgba(0,0,0,.8)}
