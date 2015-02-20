@@ -12,7 +12,7 @@
 
 		// Configure soundManager
 		soundManager.setup({
-			debugMode: true,
+			debugMode: false,
 			flashLoadTimeout: 0,
 			flashVersion: 9,
 			preferFlash: false,
@@ -22,9 +22,10 @@
 			onready: function() {
 				soundManager.createSound({
 					id: "webradio",
-										url: [
-						{ type: "audio/mpeg", url: "http://moon.wavestreamer.com:3040/;" }
-					],
+					url: [{
+						type: "audio/mpeg",
+						url: "http://moon.wavestreamer.com:3040/;"
+					}],
 					autoLoad: true,
 					autoPlay: true,
 					multiShot: false,
