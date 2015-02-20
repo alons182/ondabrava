@@ -44,15 +44,6 @@
                          <div class="tunein">
                            Escuchénos en <a href="http://tunein.com/station/?StationId=110194" target="_blank"><img src="/img/tunein.png" alt="Tune In Radio"></a>
                          </div>
-                        <!--<img src="img/player2.png" alt="player" />-->
-
-
-                        <!--<script type="text/javascript" src="http://player.wavestreamer.com/cgi-bin/swf.js?id=502QNRGYBSY9LLC7"></script>
-                        <script type="text/javascript" src=" http://player.wavestreaming.com/?id=502QNRGYBSY9LLC7"></script>-->
-
-
-                        <!--<script type="text/javascript" src="http://player.wavestreamer.com/cgi-bin/swf.js?id=V80RBE95YIB3AJBO"></script>
-                        <script type="text/javascript" src=" http://player.wavestreaming.com/?id=V80RBE95YIB3AJBO"></script>-->
 
 
                     </div>
@@ -75,18 +66,12 @@
                 <div>
 
 
-
                 </div>
 
             </section>
             <section class="videos videos-90s">
                 <header class="header-videos"><h2>Videos 90s</h2></header>
                 <div>
-                    <a class="video">
-
-
-
-                    </a>
 
 
                 </div>
@@ -102,7 +87,7 @@
 
             </section>
             <section class="videos videos-concierto">
-                <header class="header-videos"><h2>Concierto y Artista del mes</h2></header>
+                <header class="header-videos"><h2>Concierto, Artista y Pelicula del Mes</h2></header>
                 <div>
 
 
@@ -205,11 +190,11 @@
 
           {{#each this}}
 
-            {{#if category}}
+            {{#if link}}
             <a class="video">
 
                 <figure>
-                    {{{ link }}}
+                  <iframe width="560" height="315" src="{{ link }}" frameborder="0" allowfullscreen></iframe>
 
 
                 </figure>

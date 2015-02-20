@@ -12,14 +12,23 @@
 
 		// Configure soundManager
 		soundManager.setup({
-			debugMode: false, 			flashLoadTimeout: 0, 			flashVersion: 9, 			preferFlash: false, 			url: "/radio/swf/",
-			useHighPerformance: true, 			waitForWindowLoad: false, 			onready: function() {
+			debugMode: false,
+			flashLoadTimeout: 0,
+			flashVersion: 9,
+			preferFlash: false,
+			url: "/radio/swf/",
+			useHighPerformance: true,
+			waitForWindowLoad: false,
+			onready: function() {
 				soundManager.createSound({
 					id: "webradio",
 										url: [
 						{ type: "audio/mpeg", url: "http://moon.wavestreamer.com:3040/;" }
 					],
-					autoLoad: true, 					autoPlay: true, 					multiShot: false, 					onconnect: function( bConnect ) {
+					autoLoad: true,
+					autoPlay: true,
+					multiShot: false,
+					onconnect: function( bConnect ) {
 						setButtonStop(); 					},
 					onfailure: function() {
 						setButtonError(); 					},
@@ -33,7 +42,7 @@
 				});
 			},
 			ontimeout: function() {
-								// setButtonError();
+								 setButtonError();
 							}
 		});
 
@@ -157,6 +166,8 @@
 				});
 		}
 
+		getVideos();
+
 		function getVideos(){
 
 			var resultSemana = $('.videos-semana > div');
@@ -178,9 +189,9 @@
 										return obj;
 
             	});
-							var videosConciertoArtista =  $.map(data ,function(obj, index){
+							var videosConciertoArtistaPelicula =  $.map(data ,function(obj, index){
 
-								if(obj.category === "concierto" || obj.category === "artista" )
+								if(obj.category === "concierto" || obj.category === "artista" || obj.category === "pelicula" )
 										return obj;
 
             	});
@@ -209,7 +220,7 @@
 							resultSemana.html( template(videosSemana) );
 							result90s.html( template(videos90s) );
 							result80s.html( template(videos80s) );
-							resultConcierto.html( template(videosConciertoArtista) );
+							resultConcierto.html( template(videosConciertoArtistaPelicula) );
 
 					},
 					error:function(){
@@ -220,7 +231,7 @@
 
 		}
 
-		getVideos();
+
 
 
 

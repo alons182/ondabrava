@@ -15,7 +15,6 @@ if(isset($_POST['submitted'])) {
   $data = json_decode($jsonString);
 
 
-
   // or if you want to change all entries with activity_code "1"
   foreach ($data as $key => $entry) {
 
@@ -39,6 +38,9 @@ if(isset($_POST['submitted'])) {
           $entry->link = $_POST[$entry->id];
       }
       if ($entry->id == 'artista_1') {
+          $entry->link = $_POST[$entry->id];
+      }
+      if ($entry->id == 'pelicula_1') {
           $entry->link = $_POST[$entry->id];
       }
       if ($entry->id == '80s_1') {
@@ -69,10 +71,11 @@ if(isset($_POST['submitted'])) {
       $newData[]= $entry;
 
   }
-//  dd($newData);
+
 
   $newJsonString = json_encode($newData);
   file_put_contents('videoteca.json', $newJsonString);
+
 
 }
 
@@ -82,7 +85,7 @@ if(isset($_POST['submitted'])) {
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -121,7 +124,7 @@ if(isset($_POST['submitted'])) {
     <div class="container">
 
       <div class="starter-template">
-        <form action="/admin/videoteca.php" method="POST" data-remote="data-remote" data-remote-success-message="Salvando...">
+        <form action="/admin/videoteca.php" method="POST" >
           <h1>Videos de la semana</h1>
             <div class="form-group">
               <label for="semana_1" class="control-label">Video #1</label>
@@ -155,6 +158,12 @@ if(isset($_POST['submitted'])) {
                 <label for="artista_1" class="control-label">Video #1</label>
                 <input class="form-control"  name="artista_1" type="text" id="artista_1" validate>
               </div>
+
+              <h1>Pelicula del mes</h1>
+                <div class="form-group">
+                  <label for="pelicula_1" class="control-label">Pelicula #1</label>
+                  <input class="form-control"  name="pelicula_1" type="text" id="pelicula_1" validate>
+                </div>
 
             <h1>Videos 90's</h1>
               <div class="form-group">
