@@ -533,12 +533,11 @@ footer .copyright {
   overflow: hidden;
   color: #353535;
   padding: 0.3em 1em;
+  text-align: center;
 }
-footer .onda {
-  float: left;
-}
+footer .onda,
 footer .design {
-  float: right;
+  display: inline-block;
 }
 .header {
   background: #353535;
@@ -846,6 +845,12 @@ footer .design {
   .header-videos,
   .header-programs {
     font-size: 2.3rem;
+  }
+  footer .onda {
+    float: left;
+  }
+  footer .design {
+    float: right;
   }
 }
 @media only screen and (min-width: 690px) {

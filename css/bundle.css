@@ -685,9 +685,8 @@ footer .redes-tunein{background:url(../img/icon-tunein.png) center center no-rep
 footer .redes a{display:inline-block;padding:1rem;font-size:1.5rem;border-right:1px solid #4e4e4e}
 footer .redes a:hover{background:#e23333}
 footer .redes a:nth-child(1){border-left:1px solid #4e4e4e}
-footer .copyright{background:#e23333;overflow:hidden;color:#353535;padding:.3em 1em}
-footer .onda{float:left}
-footer .design{float:right}
+footer .copyright{background:#e23333;overflow:hidden;color:#353535;padding:.3em 1em;text-align:center}
+footer .design,footer .onda{display:inline-block}
 .header{background:#353535;padding:20px 0;height:40px;position:absolute;left:0;right:0;z-index:999}
 .logo{float:left;margin-left:2em;margin-top:-10px;width:100px}
 .logo img{width:100%}
@@ -738,7 +737,9 @@ footer .design{float:right}
 .message-error{color:#e23333}
 @media only screen and (min-width:480px){.banner,.banner .slide{height:480px}
 .banner #banner-pager{left:2em;text-align:left}
-.header-programs,.header-videos{font-size:2.3rem}}
+.header-programs,.header-videos{font-size:2.3rem}
+footer .onda{float:left}
+footer .design{float:right}}
 @media only screen and (min-width:690px){.header{position:fixed}
 #btn_nav{display:none}
 .menu{display:block;float:right;margin-right:2em;margin-top:-1em;background:0 0}
