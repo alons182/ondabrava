@@ -12,7 +12,7 @@
 
 		// Configure soundManager
 		soundManager.setup({
-			debugMode: false,
+			debugMode: true,
 			flashLoadTimeout: 0,
 			flashVersion: 9,
 			preferFlash: false,
