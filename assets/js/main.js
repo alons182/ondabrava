@@ -42,7 +42,7 @@
 				});
 			},
 			ontimeout: function() {
-								 setButtonError();
+								 //setButtonError();
 							}
 		});
 
@@ -59,7 +59,7 @@
 			$( "#sm-button" ).attr( "src", "/img/play.jpg" ).attr( "alt", "Sonar" );
 		}
 		function setButtonPreloader() {
-			//$( "#sm-button" ).attr( "src", "http://cdn.radiosfm.org/images/preloader.gif" ).attr( "alt", "Cargando..." );
+			$( "#sm-button" ).attr( "src", "/img/preloader.gif" ).attr( "alt", "Cargando..." );
 		}
 		function setButtonStop() {
 			$( "#sm-button" ).attr( "src", "/img/stop.jpg" ).attr( "alt", "Parar" );
