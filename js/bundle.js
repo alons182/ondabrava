@@ -4069,13 +4069,13 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 				window.open( 'http://www.adobe.com/go/getflashplayer' );
 			} else if ( $( this ).attr( "alt" ) == "Sonar" ) {
 				setButtonStop();
-				( navegador != "desktop" ) ? soundManager.play( "webradio" ) : soundManager.unmute( "webradio" );
+				soundManager.play( "webradio" ); //( navegador != "desktop" ) ? soundManager.play( "webradio" ) : soundManager.unmute( "webradio" );
 			} else if ( $( this ).attr( "alt" ) == "Inicio" ) {
 				setButtonPreloader();
 				( navegador != "desktop" ) ? soundManager.play( "webradio" ) : '';
 			} else if ( $( this ).attr( "alt" ) == "Parar" ) {
 				setButtonPlay();
-				( navegador != "desktop" ) ? soundManager.unload( "webradio" ) : soundManager.mute( "webradio" );
+				soundManager.unload( "webradio" ); //( navegador != "desktop" ) ? soundManager.unload( "webradio" ) : soundManager.mute( "webradio" );
 			}
 		});
 
