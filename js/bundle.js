@@ -4022,8 +4022,8 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 						type: "audio/mpeg",
 						url: "http://moon.wavestreamer.com:3040/;"
 					}],
-					autoLoad: true,
-					autoPlay: true,
+					autoLoad: ( navegador != "desktop" ) ? false : true,
+					autoPlay: ( navegador != "desktop" ) ? false : true,
 					multiShot: false,
 					onconnect: function( bConnect ) {
 						setButtonStop(); 					},
@@ -4031,7 +4031,7 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 						setButtonError(); 					},
 					onload: function( bSuccess ) {
 						if( bSuccess == true ) {
-							( navegador != "desktop" ) ? setButtonPlay() :  setButtonStop();						} else {
+							setButtonStop();						} else {
 							setButtonError(); 						}
 					},
 					onplay: function() {

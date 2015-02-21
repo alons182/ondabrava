@@ -130,8 +130,8 @@
 						type: "audio/mpeg",
 						url: "http://moon.wavestreamer.com:3040/;"
 					}],
-					autoLoad: true,
-					autoPlay: true,
+					autoLoad: ( navegador != "desktop" ) ? false : true,
+					autoPlay: ( navegador != "desktop" ) ? false : true,
 					multiShot: false,
 					onconnect: function( bConnect ) {
 						setButtonStop(); 					},
@@ -139,7 +139,7 @@
 						setButtonError(); 					},
 					onload: function( bSuccess ) {
 						if( bSuccess == true ) {
-							( navegador != "desktop" ) ? setButtonPlay() :  setButtonStop();						} else {
+							setButtonStop();						} else {
 							setButtonError(); 						}
 					},
 					onplay: function() {
