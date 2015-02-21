@@ -9,6 +9,66 @@
     });
 
 
+		/*soundManager.setup({
+
+			// location: path to SWF files, as needed (SWF file name is appended later.)
+
+			url: './radio/swf/',
+
+			// optional: version of SM2 flash audio API to use (8 or 9; default is 8 if omitted, OK for most use cases.)
+			// flashVersion: 9,
+
+			// use soundmanager2-nodebug-jsmin.js, or disable debug mode (enabled by default) after development/testing
+			debugMode: true,
+
+			// good to go: the onready() callback
+
+			onready: function() {
+
+			// SM2 has started - now you can create and play sounds!
+
+			var mySound = soundManager.createSound({
+				id: 'aSound', // optional: provide your own unique id
+				url: 'http://moon.wavestreamer.com:3040/;',
+				onload: function() { console.log('sound loaded!', this); }
+				// other options here..
+			});
+
+			mySound.play();
+
+			},
+
+			// optional: ontimeout() callback for handling start-up failure
+
+			ontimeout: function() {
+
+			// Hrmm, SM2 could not start. Missing SWF? Flash blocked? No HTML5 audio support? Show an error, etc.?
+			// See the flashblock demo when you want to start getting fancy.
+
+			}
+
+		});
+
+		$( "#sm-button" ).on( "click", function() {
+
+
+			if($(this).attr('alt') == "Play")
+			{
+				$(this).attr('src','/img/stop.jpg').attr('alt','Stop');
+				console.log( soundManager.playState );
+				soundManager.stop('aSound');
+			}
+			else
+			{
+
+				$(this).attr('src','/img/play.jpg').attr('alt','Play');;
+				soundManager.play('aSound');
+			}
+		});
+*/
+
+
+
 		window.soundManager = new SoundManager();
 
 		// Configure soundManager
@@ -68,7 +128,7 @@
 		}
 
 		// Set the controls
-		$( "#sm-button" ).bind( "click", function() {
+		$( "#sm-button" ).on( "click", function() {
 			if ( $( this ).attr( "alt" ) == "Flash" ) {
 				window.open( 'http://www.adobe.com/go/getflashplayer' );
 			} else if ( $( this ).attr( "alt" ) == "Sonar" ) {
