@@ -3953,7 +3953,9 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 
 		$( "#sm-button" ).on( "click", function() {
 
+			console.log(mySound.playState);
 			if(mySound.playState){
+
 
 						if($(this).attr('alt') == "Stop")
 						{

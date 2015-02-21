@@ -61,7 +61,9 @@
 
 		$( "#sm-button" ).on( "click", function() {
 
+			console.log(mySound.playState);
 			if(mySound.playState){
+
 
 						if($(this).attr('alt') == "Stop")
 						{
