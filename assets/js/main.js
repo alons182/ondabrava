@@ -9,15 +9,11 @@
 
     });
 
-		if($(window).width() < 1024){
-				navegador = 'mobile';
-			}else
-			{
-				navegador ='desktop';
-			}
 
+		resize()
+		$(window).resize(resize);
 		//	FUNCTION RESIZE BROWSER
-		$(window).resize(function(){
+		function resize(){
 
 			if($(window).width() < 1024){
 					navegador = 'mobile';
@@ -26,89 +22,7 @@
 					navegador ='desktop';
 				}
 
-		});
-
-/*
-		soundManager.setup({
-
-			// location: path to SWF files, as needed (SWF file name is appended later.)
-
-			url: './radio/swf/',
-
-			// optional: version of SM2 flash audio API to use (8 or 9; default is 8 if omitted, OK for most use cases.)
-			// flashVersion: 9,
-
-			// use soundmanager2-nodebug-jsmin.js, or disable debug mode (enabled by default) after development/testing
-			debugMode: true,
-
-			// good to go: the onready() callback
-
-			onready: function() {
-
-			// SM2 has started - now you can create and play sounds!
-
-			window.mySound = soundManager.createSound({
-				id: 'aSound', // optional: provide your own unique id
-				url: 'http://moon.wavestreamer.com:3040/;',
-				autoLoad: true,
-				autoPlay: true,
-				multiShot: false,
-				onload: function(bSuccess) {
-
-						console.log('sound loaded! -' + bSuccess, this);
-						$( "#sm-button" ).attr('src','/img/stop.jpg').attr('alt','Stop');
-					},
-				onplay: function() {
-					console.log('sound play!');
-					$( "#sm-button" ).attr('src','/img/preloader.gif').attr('alt','Cargando...');
-				//	$( "#sm-button" ).attr('src','/img/stop.jpg').attr('alt','Stop');
-
-					}
-				// other options here..
-			});
-
-			mySound.play();
-
-			},
-
-			// optional: ontimeout() callback for handling start-up failure
-
-			ontimeout: function() {
-
-			// Hrmm, SM2 could not start. Missing SWF? Flash blocked? No HTML5 audio support? Show an error, etc.?
-			// See the flashblock demo when you want to start getting fancy.
-
-			}
-
-		});
-
-		$( "#sm-button" ).on( "click", function() {
-
-			console.log(mySound.playState);
-			if(mySound.playState){
-
-
-						if($(this).attr('alt') == "Stop")
-						{
-							$(this).attr('src','/img/play.jpg').attr('alt','Play');
-							soundManager.mute( "aSound" );
-						}
-						else
-						{
-
-							$(this).attr('src','/img/stop.jpg').attr('alt','Stop');;
-							soundManager.unmute('aSound');
-						}
-
-
-			}else{
-
-				$(this).attr('src','/img/stop.jpg').attr('alt','Stop');;
-				soundManager.play('aSound');
-			}
-
-		});
-*/
+		}
 
 
 
@@ -153,7 +67,7 @@
 
 		// Define the buttons
 		function setButtonError() {
-			$( "#sm-button" ).attr( "src", "http://cdn.radiosfm.org/images/error.png" ).attr( "alt", "Error" );
+			$( "#sm-button" ).attr( "src", "/img/error.png" ).attr( "alt", "Error" );
 			ga( "send", "event", { eventCategory: "Player", eventAction: "Error" } );
 			// logStreamError( "46592", "desktop" );
 		}
@@ -172,7 +86,7 @@
 
 		// Set the controls
 		$( "#sm-button" ).on( "click", function() {
-			console.log(navegador);
+
 			if ( $( this ).attr( "alt" ) == "Flash" ) {
 				window.open( 'http://www.adobe.com/go/getflashplayer' );
 			} else if ( $( this ).attr( "alt" ) == "Sonar" ) {
