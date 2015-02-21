@@ -15,7 +15,7 @@ if(isset($_POST['submitted'])) {
   $data = json_decode($jsonString);
 
 
-  // or if you want to change all entries with activity_code "1"
+
   foreach ($data as $key => $entry) {
 
 
