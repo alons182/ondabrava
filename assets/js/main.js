@@ -27,7 +27,7 @@
 
 			// SM2 has started - now you can create and play sounds!
 
-			var mySound = soundManager.createSound({
+			window.mySound = soundManager.createSound({
 				id: 'aSound', // optional: provide your own unique id
 				url: 'http://moon.wavestreamer.com:3040/;',
 				onload: function(bSuccess) {
@@ -36,10 +36,10 @@
 						$( "#sm-button" ).attr('src','/img/stop.jpg').attr('alt','Stop');
 					},
 				onplay: function() {
-					console.log('sound play!');
+				/*	console.log('sound play!');
 					$( "#sm-button" ).attr('src','/img/preloader.gif').attr('alt','Cargando...');
 				//	$( "#sm-button" ).attr('src','/img/stop.jpg').attr('alt','Stop');
-
+*/
 					}
 				// other options here..
 			});
@@ -61,18 +61,27 @@
 
 		$( "#sm-button" ).on( "click", function() {
 
+			if(mySound.playState){
 
-			if($(this).attr('alt') == "Stop")
-			{
-				$(this).attr('src','/img/play.jpg').attr('alt','Play');
-				soundManager.unload( "aSound" );
-			}
-			else
-			{
+						if($(this).attr('alt') == "Stop")
+						{
+							$(this).attr('src','/img/play.jpg').attr('alt','Play');
+							soundManager.mute( "aSound" );
+						}
+						else
+						{
+
+							$(this).attr('src','/img/stop.jpg').attr('alt','Stop');;
+							soundManager.unmute('aSound');
+						}
+
+
+			}else{
 
 				$(this).attr('src','/img/stop.jpg').attr('alt','Stop');;
 				soundManager.play('aSound');
 			}
+
 		});
 
 
