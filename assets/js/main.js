@@ -8,6 +8,7 @@
 
     });
 
+
 		window.soundManager = new SoundManager();
 
 		// Configure soundManager
