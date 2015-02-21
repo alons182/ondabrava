@@ -3892,7 +3892,8 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 
 (function($){
 	var menu 		= $('.menu'),
-		btnMobile 	= $('#btn_nav');
+		btnMobile 	= $('#btn_nav'),
+		navegador = 'desktop';
 
 	// NAV MOBILE
     btnMobile.click(function(){
@@ -3900,7 +3901,26 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 
     });
 
+		if($(window).width() < 1024){
+				navegador = 'mobile';
+			}else
+			{
+				navegador ='desktop';
+			}
 
+		//	FUNCTION RESIZE BROWSER
+		$(window).resize(function(){
+
+			if($(window).width() < 1024){
+					navegador = 'mobile';
+				}else
+				{
+					navegador ='desktop';
+				}
+
+		});
+
+/*
 		soundManager.setup({
 
 			// location: path to SWF files, as needed (SWF file name is appended later.)
@@ -3931,10 +3951,10 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 						$( "#sm-button" ).attr('src','/img/stop.jpg').attr('alt','Stop');
 					},
 				onplay: function() {
-				/*	console.log('sound play!');
+					console.log('sound play!');
 					$( "#sm-button" ).attr('src','/img/preloader.gif').attr('alt','Cargando...');
 				//	$( "#sm-button" ).attr('src','/img/stop.jpg').attr('alt','Stop');
-*/
+
 					}
 				// other options here..
 			});
@@ -3980,15 +4000,15 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 			}
 
 		});
+*/
 
 
 
-
-/*		window.soundManager = new SoundManager();
+		window.soundManager = new SoundManager();
 
 		// Configure soundManager
 		soundManager.setup({
-			debugMode: false,
+			debugMode: true,
 			flashLoadTimeout: 0,
 			flashVersion: 9,
 			preferFlash: false,
@@ -4011,7 +4031,7 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 						setButtonError(); 					},
 					onload: function( bSuccess ) {
 						if( bSuccess == true ) {
-							setButtonStop(); 						} else {
+							( navegador != "desktop" ) ? setButtonPlay() :  setButtonStop();						} else {
 							setButtonError(); 						}
 					},
 					onplay: function() {
@@ -4044,22 +4064,23 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 
 		// Set the controls
 		$( "#sm-button" ).on( "click", function() {
+			console.log(navegador);
 			if ( $( this ).attr( "alt" ) == "Flash" ) {
 				window.open( 'http://www.adobe.com/go/getflashplayer' );
 			} else if ( $( this ).attr( "alt" ) == "Sonar" ) {
 				setButtonStop();
-				( "desktop" != "desktop" ) ? soundManager.play( "webradio" ) : soundManager.unmute( "webradio" );
+				( navegador != "desktop" ) ? soundManager.play( "webradio" ) : soundManager.unmute( "webradio" );
 			} else if ( $( this ).attr( "alt" ) == "Inicio" ) {
 				setButtonPreloader();
-				( "desktop" != "desktop" ) ? soundManager.play( "webradio" ) : '';
+				( navegador != "desktop" ) ? soundManager.play( "webradio" ) : '';
 			} else if ( $( this ).attr( "alt" ) == "Parar" ) {
 				setButtonPlay();
-				( "desktop" != "desktop" ) ? soundManager.unload( "webradio" ) : soundManager.mute( "webradio" );
+				( navegador != "desktop" ) ? soundManager.unload( "webradio" ) : soundManager.mute( "webradio" );
 			}
 		});
 
 		// Kick-start the SoundManager init process?
-		if ( "" == "1" && typeof( detectFlash ) === "function" && !detectFlash() ) {
+		/*if ( "" == "1" && typeof( detectFlash ) === "function" && !detectFlash() ) {
 			setButtonFlash();
 		} else {
 			soundManager.beginDelayedInit();
