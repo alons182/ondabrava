@@ -30,6 +30,9 @@
 			window.mySound = soundManager.createSound({
 				id: 'aSound', // optional: provide your own unique id
 				url: 'http://moon.wavestreamer.com:3040/;',
+				autoLoad: true,
+				autoPlay: true,
+				multiShot: false,
 				onload: function(bSuccess) {
 
 						console.log('sound loaded! -' + bSuccess, this);
