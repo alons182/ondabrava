@@ -30,7 +30,7 @@
 
 		// Configure soundManager
 		soundManager.setup({
-			debugMode: true,
+			debugMode: false,
 			flashLoadTimeout: 0,
 			flashVersion: 9,
 			preferFlash: false,
@@ -101,12 +101,6 @@
 			}
 		});
 
-		// Kick-start the SoundManager init process?
-		/*if ( "" == "1" && typeof( detectFlash ) === "function" && !detectFlash() ) {
-			setButtonFlash();
-		} else {
-			soundManager.beginDelayedInit();
-		}*/
 
 
 		$('.contact-link').magnificPopup({
