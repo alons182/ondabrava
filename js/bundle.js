@@ -3901,7 +3901,7 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
     });
 
 
-		/*soundManager.setup({
+		soundManager.setup({
 
 			// location: path to SWF files, as needed (SWF file name is appended later.)
 
@@ -3922,7 +3922,17 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 			var mySound = soundManager.createSound({
 				id: 'aSound', // optional: provide your own unique id
 				url: 'http://moon.wavestreamer.com:3040/;',
-				onload: function() { console.log('sound loaded!', this); }
+				onload: function(bSuccess) {
+
+						console.log('sound loaded! -' + bSuccess, this);
+						$( "#sm-button" ).attr('src','/img/stop.jpg').attr('alt','Stop');
+					},
+				onplay: function() {
+					console.log('sound play!');
+					$( "#sm-button" ).attr('src','/img/preloader.gif').attr('alt','Cargando...');
+				//	$( "#sm-button" ).attr('src','/img/stop.jpg').attr('alt','Stop');
+
+					}
 				// other options here..
 			});
 
@@ -3944,24 +3954,23 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 		$( "#sm-button" ).on( "click", function() {
 
 
-			if($(this).attr('alt') == "Play")
+			if($(this).attr('alt') == "Stop")
 			{
-				$(this).attr('src','/img/stop.jpg').attr('alt','Stop');
-				console.log( soundManager.playState );
-				soundManager.stop('aSound');
+				$(this).attr('src','/img/play.jpg').attr('alt','Play');
+				soundManager.unload( "aSound" );
 			}
 			else
 			{
 
-				$(this).attr('src','/img/play.jpg').attr('alt','Play');;
+				$(this).attr('src','/img/stop.jpg').attr('alt','Stop');;
 				soundManager.play('aSound');
 			}
 		});
-*/
 
 
 
-		window.soundManager = new SoundManager();
+
+/*		window.soundManager = new SoundManager();
 
 		// Configure soundManager
 		soundManager.setup({
@@ -4040,7 +4049,7 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 			setButtonFlash();
 		} else {
 			soundManager.beginDelayedInit();
-		}
+		}*/
 
 
 		$('.contact-link').magnificPopup({
