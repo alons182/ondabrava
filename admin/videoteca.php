@@ -72,7 +72,7 @@ if(isset($_POST['submitted'])) {
 
   }
 
-
+  file_put_contents('videoteca.json', json_encode($newData));
 
 
 

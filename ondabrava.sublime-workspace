@@ -680,11 +680,15 @@
 	},
 	"expanded_folders":
 	[
-		"/D/xampp/htdocs/ondabrava",
-		"/D/xampp/htdocs/ondabrava/stylus"
+		"/D/xampp/htdocs/ondabrava"
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/ondabrava/assets/js/main.js",
+		"/D/xampp/htdocs/ondabrava/index.html",
+		"/D/xampp/htdocs/ondabrava/assets/css/main.css",
+		"/D/xampp/htdocs/ondabrava/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/D/xampp/htdocs/ondabrava/videoteca.html",
 		"/D/web.config",
 		"/D/application.xml",
 		"/D/xampp/htdocs/diamantetemplate/index.html",
@@ -709,7 +713,6 @@
 		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.01.38,240.eml",
 		"/D/xampp/Mail Sent to Local Server/2015-01-20 17.01.38,290.eml",
 		"/D/Proyectos/AVOTZ/enerycontrol/application(old server).xml",
-		"/D/xampp/htdocs/ondabrava/index.html",
 		"/D/xampp/htdocs/ondabrava/stylus/main.styl",
 		"/D/xampp/htdocs/ondabrava/stylus/responsive.styl",
 		"/D/Documents/Visual Studio 2013/Projects/POSBASE MySQL_norman/POSBASE/bin/Release/log/2015-01-20",
@@ -808,11 +811,7 @@
 		"/C/xampp/htdocs/fashionfactory/composer.json",
 		"/C/xampp/htdocs/fashionfactory/vendor/laravel/framework/src/Illuminate/Routing/Generators/stubs/show.stub",
 		"/C/xampp/htdocs/fashionfactory/app/views/products/show.blade.php",
-		"/C/xampp/htdocs/fashionfactory/vendor/predis/predis/examples/SessionHandler.php",
-		"/C/xampp/htdocs/fashionfactory/server.php",
-		"/C/xampp/htdocs/fashionfactory/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/LogicalOr.php",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/scripts/gallery.js",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/scripts/grid.js"
+		"/C/xampp/htdocs/fashionfactory/vendor/predis/predis/examples/SessionHandler.php"
 	],
 	"find":
 	{
@@ -1056,6 +1055,10 @@
 		"selected_items":
 		[
 			[
+				"main.js",
+				"assets\\js\\main.js"
+			],
+			[
 				"inde",
 				"index.html"
 			],
@@ -1082,10 +1085,6 @@
 			[
 				"main.sty",
 				"stylus\\main.styl"
-			],
-			[
-				"main.js",
-				"js\\main.js"
 			],
 			[
 				"layo",
