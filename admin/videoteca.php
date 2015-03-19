@@ -13,18 +13,20 @@ if(isset($_POST['submitted'])) {
   if ($db = sqlite_open('videoteca.db', 0666, $sqliteerror)) {
   
 
-   sqlite_query($db, 'CREATE TABLE videos(id varchar(40),name varchar(255),category varchar(100),link varchar(255))');
-
+   $query = sqlite_query($db, 'SELECT id, link FROM videos');
+    while ($entry = sqlite_fetch_array($query, SQLITE_ASSOC)) {
+        echo 'id: ' . $entry['id'] . '  Link: ' . $entry['link'];
+    }
    sqlite_close($db);
 
-  $jsonString = file_get_contents('videoteca.json');
-  $data = json_decode($jsonString);
+  
 }else
 {
   die ($sqliteerror);
 }
 
-
+  $jsonString = file_get_contents('videoteca.json');
+  $data = json_decode($jsonString);
 
   foreach ($data as $key => $entry) {
 
