@@ -13,7 +13,7 @@ if(isset($_POST['submitted'])) {
   if ($db = sqlite_open('videoteca.db', 0666, $sqliteerror)) {
   
 
-   sqlite_query($db, 'CREATE TABLE IF NOT EXISTS videos(id varchar(40),name varchar(255),category varchar(100),link varchar(255))');
+   sqlite_query($db, 'CREATE TABLE videos(id varchar(40),name varchar(255),category varchar(100),link varchar(255))');
 
    sqlite_close($db);
 
