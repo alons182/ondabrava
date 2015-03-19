@@ -680,10 +680,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/xampp/htdocs/ondabrava"
+		"/D/xampp/htdocs/ondabrava",
+		"/D/xampp/htdocs/ondabrava/admin",
+		"/D/xampp/htdocs/ondabrava/assets",
+		"/D/xampp/htdocs/ondabrava/assets/js"
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/ondabrava/admin/videoteca.php",
 		"/D/xampp/htdocs/ondabrava/assets/js/main.js",
 		"/D/xampp/htdocs/ondabrava/index.html",
 		"/D/xampp/htdocs/ondabrava/assets/css/main.css",
@@ -810,8 +814,7 @@
 		"/C/xampp/htdocs/fashionfactory/app/views/emails/contact.blade.php",
 		"/C/xampp/htdocs/fashionfactory/composer.json",
 		"/C/xampp/htdocs/fashionfactory/vendor/laravel/framework/src/Illuminate/Routing/Generators/stubs/show.stub",
-		"/C/xampp/htdocs/fashionfactory/app/views/products/show.blade.php",
-		"/C/xampp/htdocs/fashionfactory/vendor/predis/predis/examples/SessionHandler.php"
+		"/C/xampp/htdocs/fashionfactory/app/views/products/show.blade.php"
 	],
 	"find":
 	{

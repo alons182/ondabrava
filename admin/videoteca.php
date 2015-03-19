@@ -10,9 +10,19 @@ if( !isset($_SESSION['login']) || !$_SESSION['login'])
 //If the form is submitted
 if(isset($_POST['submitted'])) {
 
+  if ($db = sqlite_open('videoteca.db', 0666, $sqliteerror)) {
+  
+
+   sqlite_query($db, 'CREATE TABLE IF NOT EXISTS videos(id varchar(40),name varchar(255),category varchar(100),link varchar(255))');
+
+   sqlite_close($db);
 
   $jsonString = file_get_contents('videoteca.json');
   $data = json_decode($jsonString);
+}else
+{
+  die ($sqliteerror);
+}
 
 
 
