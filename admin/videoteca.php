@@ -7,91 +7,37 @@ include_once('helpers.php');
 if( !isset($_SESSION['login']) || !$_SESSION['login'])
   Redirect('/admin/index.php', false);
 
-//If the form is submitted
-if(isset($_POST['submitted'])) {
+//$result;
+  try
+  {
+    $db = new PDO('sqlite:videoteca.db');
+    //$db->exec("INSERT INTO videos(id, category, link) VALUES ('semana_1', 'semana', 'https:\/\/www.youtube.com\/embed\/o7So0wmGDzw');");
 
-  if ($db = sqlite_open('videoteca.db', 0666, $sqliteerror)) {
-  
 
-   $query = sqlite_query($db, 'SELECT id, link FROM videos');
-    while ($entry = sqlite_fetch_array($query, SQLITE_ASSOC)) {
-        echo 'id: ' . $entry['id'] . '  Link: ' . $entry['link'];
+    //now output the data to a simple html table...
+    /*print "<table class='table table-striped'>";
+    print "<tr><td>Id</td><td>category</td><td>link</td></tr>";
+    $result = $db->query('SELECT * FROM videos order by id ');
+    foreach($result as $row)
+    {
+      print "<tr><td>".$row['id']."</td>";
+      print "<td>".$row['category']."</td>";
+      print "<td>".$row['link']."</td></tr>";
     }
-   sqlite_close($db);
+    print "</table>";
 
-  
-}else
-{
-  die ($sqliteerror);
-}
-
-  $jsonString = file_get_contents('videoteca.json');
-  $data = json_decode($jsonString);
-
-  foreach ($data as $key => $entry) {
-
-
-
-      if ($entry->id == 'semana_1') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == 'semana_2') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == 'semana_3') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == 'semana_4') {
-          $entry->link = $_POST[$entry->id];
-      }
-
-
-      if ($entry->id == 'concierto_1') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == 'artista_1') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == 'pelicula_1') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == '80s_1') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == '80s_2') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == '80s_3') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == '80s_4') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == '90s_1') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == '90s_2') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == '90s_3') {
-          $entry->link = $_POST[$entry->id];
-      }
-      if ($entry->id == '90s_4') {
-          $entry->link = $_POST[$entry->id];
-      }
-
-      $newData[]= $entry;
-
+    // close the database connection
+    $db = NULL;*/
+  }
+  catch(PDOException $e)
+  {
+    print 'Exception : '.$e->getMessage();
   }
 
-  file_put_contents('videoteca.json', json_encode($newData));
 
 
 
 
-
-
-}
 
 
 
@@ -111,6 +57,7 @@ if(isset($_POST['submitted'])) {
     <title>Admin Videoteca</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
     <style>
       body{
         padding-top:50px;
@@ -139,87 +86,31 @@ if(isset($_POST['submitted'])) {
 
       <div class="starter-template">
         <form action="/admin/videoteca.php" method="POST" >
-          <h1>Videos de la semana</h1>
-            <div class="form-group">
-              <label for="semana_1" class="control-label">Video #1</label>
-              <input class="form-control"  name="semana_1" type="text" id="semana_1" validate>
-            </div>
-            <div class="form-group">
-              <label for="semana_2" class="control-label">Video #2</label>
-              <input class="form-control"  name="semana_2" type="text" id="semana_2" validate>
-            </div>
-            <div class="form-group">
-              <label for="semana_3" class="control-label">Video #3</label>
-              <input class="form-control"  name="semana_3" type="text" id="semana_3" validate>
-            </div>
-            <div class="form-group">
-              <label for="semana_4" class="control-label">Video #4</label>
-              <input class="form-control"  name="semana_4" type="text" id="semana_4" validate>
-            </div>
-
-
-
-
-
-            <h1>Concierto del mes</h1>
-              <div class="form-group">
-                <label for="concierto_1" class="control-label">Video #1</label>
-                <input class="form-control"  name="concierto_1" type="text" id="concierto_1" validate>
-              </div>
-
-            <h1>Artista del mes</h1>
-              <div class="form-group">
-                <label for="artista_1" class="control-label">Video #1</label>
-                <input class="form-control"  name="artista_1" type="text" id="artista_1" validate>
-              </div>
-
-              <h1>Pelicula del mes</h1>
-                <div class="form-group">
-                  <label for="pelicula_1" class="control-label">Pelicula #1</label>
-                  <input class="form-control"  name="pelicula_1" type="text" id="pelicula_1" validate>
-                </div>
-
-            <h1>Videos 90's</h1>
-              <div class="form-group">
-                <label for="90s_1" class="control-label">Video #1</label>
-                <input class="form-control"  name="90s_1" type="text" id="90s_1" validate>
-              </div>
-              <div class="form-group">
-                <label for="90s_2" class="control-label">Video #2</label>
-                <input class="form-control"  name="90s_2" type="text" id="90s_2" validate>
-              </div>
-              <div class="form-group">
-                <label for="90s_3" class="control-label">Video #3</label>
-                <input class="form-control"  name="90s_3" type="text" id="90s_3" validate>
-              </div>
-              <div class="form-group">
-                <label for="90s_4" class="control-label">Video #4</label>
-                <input class="form-control"  name="90s_4" type="text" id="90s_4" validate>
-              </div>
-
-
-              <h1>Videos 80's</h1>
-                <div class="form-group">
-                  <label for="80s_1" class="control-label">Video #1</label>
-                  <input class="form-control"  name="80s_1" type="text" id="80s_1" validate>
-                </div>
-                <div class="form-group">
-                  <label for="80s_2" class="control-label">Video #2</label>
-                  <input class="form-control"  name="80s_2" type="text" id="80s_2" validate>
-                </div>
-                <div class="form-group">
-                  <label for="80s_3" class="control-label">Video #3</label>
-                  <input class="form-control"  name="80s_3" type="text" id="80s_3" validate>
-                </div>
-                <div class="form-group">
-                  <label for="80s_4" class="control-label">Video #4</label>
-                  <input class="form-control"  name="80s_4" type="text" id="80s_4" validate>
-                </div>
-
-            <div class="form-group">
-              <input type="hidden" name="submitted" id="submitted" value="true" />
-              <button type="submit" class="btn btn-info"  >Guardar</button>
-            </div>
+           <table class='table table-striped'>
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>category</th>
+                <th>link</th>
+              </tr>
+            </thead>
+            <tbody>
+                         
+           <?php  
+            $result = $db->query('SELECT * FROM videos order by category Desc ');
+           foreach($result as $row)
+            {
+              ?>
+              <tr> 
+                <td><?php echo $row['id'] ?></td>
+                <td><?php echo $row['category'] ?></td>
+                <td><a href="#" class="x-edit" data-type="text" data-name="link" data-pk="<?php echo $row['id'] ?>" data-url="/admin/operaciones.php?op=update" data-title="Enter Link"><?php echo $row['link'] ?></a></td>
+              </tr>
+            <?php
+              }
+            ?>
+            </tbody>
+            </table>
 
         </form>
         <div class="message"></div>
@@ -228,9 +119,12 @@ if(isset($_POST['submitted'])) {
     </div><!-- /.container -->
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
     <script>
         (function($){
-
+          $.fn.editable.defaults.ajaxOptions = {type: "POST"};
+          $('.x-edit').editable();
           $.ajax({
               type: 'GET',
               url: '/admin/videoteca.json',

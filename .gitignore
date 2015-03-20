@@ -1,5 +1,6 @@
 /node_modules
 /admin/videoteca.json
+/admin/videoteca.db
 .DS_Store
 Thumbs.db
 .idea

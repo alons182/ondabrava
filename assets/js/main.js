@@ -191,7 +191,7 @@
 
 			$.ajax({
 					type: 'GET',
-					url: '/admin/videoteca.json',
+					url: '/admin/operaciones.php?op=get',
 					dataType:'json',
 					success: function(data){
 
