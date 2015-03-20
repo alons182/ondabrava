@@ -85,7 +85,7 @@ if( !isset($_SESSION['login']) || !$_SESSION['login'])
     <div class="container">
 
       <div class="starter-template">
-        <form action="/admin/videoteca.php" method="POST" >
+        <h1>Videoteca</h1>
            <table class='table table-striped'>
             <thead>
               <tr>
@@ -112,8 +112,8 @@ if( !isset($_SESSION['login']) || !$_SESSION['login'])
             </tbody>
             </table>
 
-        </form>
-        <div class="message"></div>
+       
+        
       </div>
 
     </div><!-- /.container -->
