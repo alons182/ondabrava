@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"js",
+				"json_encode"
+			],
+			[
+				"sql",
+				"sqlite_close"
+			],
+			[
+				"con",
+				"conexion"
+			],
+			[
+				"sqlite",
+				"sqlite_open"
+			],
+			[
 				"rg",
 				"rgba	rgba"
 			],
@@ -272,10 +288,6 @@
 				"addClass	addClass"
 			],
 			[
-				"js",
-				"json_encode"
-			],
-			[
 				"reu",
 				"return"
 			],
@@ -476,10 +488,6 @@
 				"hidden"
 			],
 			[
-				"con",
-				"console"
-			],
-			[
 				"Blade",
 				"Blade-compile	Blade-compile"
 			],
@@ -506,14 +514,6 @@
 			[
 				"eac",
 				"each	.each()"
-			],
-			[
-				"f",
-				"find	.find()"
-			],
-			[
-				"prev",
-				"preventDefault"
 			]
 		]
 	},
@@ -683,12 +683,22 @@
 		"/D/xampp/htdocs/ondabrava",
 		"/D/xampp/htdocs/ondabrava/admin",
 		"/D/xampp/htdocs/ondabrava/assets",
-		"/D/xampp/htdocs/ondabrava/assets/js"
+		"/D/xampp/htdocs/ondabrava/assets/js",
+		"/D/xampp/htdocs/ondabrava/assets/stylus",
+		"/D/xampp/htdocs/ondabrava/js"
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/testanimation/index.html",
 		"/D/xampp/htdocs/ondabrava/admin/videoteca.php",
 		"/D/xampp/htdocs/ondabrava/assets/js/main.js",
+		"/D/xampp/htdocs/suenos/assets/js/admin.js",
+		"/D/xampp/htdocs/ondabrava/admin/operaciones.php",
+		"/D/xampp/htdocs/ondabrava/admin/videoteca.json",
+		"/D/xampp/htdocs/ondabrava/assets/stylus/main.styl",
+		"/D/xampp/htdocs/ondabrava/.gitignore",
+		"/D/xampp/php/php.ini",
+		"/C/Users/Alonso/dbname.sql",
 		"/D/xampp/htdocs/ondabrava/index.html",
 		"/D/xampp/htdocs/ondabrava/assets/css/main.css",
 		"/D/xampp/htdocs/ondabrava/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
@@ -806,15 +816,7 @@
 		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/server/server.js",
 		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/server/routes/employees.js",
 		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/readme.md",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/lib/pageslider.js",
-		"/D/Documents/Programacion/Ejemplos Web/Html/test simple cart/index.html",
-		"/C/xampp/htdocs/fashionfactory/app/views/pages/contact.blade.php",
-		"/C/xampp/htdocs/fashionfactory/public/stylus/main.styl",
-		"/C/xampp/htdocs/fashionfactory/public/js/main.js",
-		"/C/xampp/htdocs/fashionfactory/app/views/emails/contact.blade.php",
-		"/C/xampp/htdocs/fashionfactory/composer.json",
-		"/C/xampp/htdocs/fashionfactory/vendor/laravel/framework/src/Illuminate/Routing/Generators/stubs/show.stub",
-		"/C/xampp/htdocs/fashionfactory/app/views/products/show.blade.php"
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/lib/pageslider.js"
 	],
 	"find":
 	{
@@ -832,6 +834,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</td>",
+			"<td>",
+			"d",
 			"upload",
 			"scale",
 			"fonts",
@@ -956,10 +961,7 @@
 			"Niños",
 			"niños",
 			"123",
-			"loader",
-			"templates/verbodivino/images/banner/",
-			"description",
-			"main"
+			"loader"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1013,7 +1015,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 40.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -1421,6 +1423,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"fr",
+				"D:\\xampp\\htdocs\\framecr\\frame.sublime-project"
+			],
 			[
 				"",
 				"D:\\xampp\\htdocs\\ondabrava\\ondabrava.sublime-project"
