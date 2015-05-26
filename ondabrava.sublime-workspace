@@ -519,11 +519,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/main.js",
+			"settings":
+			{
+				"buffer_size": 6481,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 132.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -689,6 +710,20 @@
 	],
 	"file_history":
 	[
+		"/D/xampp/php/php.ini",
+		"/C/Users/Alonso/Desktop/.env",
+		"/D/.env",
+		"/D/Downloads/Compressed/diamanteecoadventures.sql/diamanteecoadventures.sql",
+		"/D/xampp/htdocs/ondabrava/index.html",
+		"/D/xampp/htdocs/ondabrava/videoteca.html",
+		"/D/RitmoDigital.html",
+		"/D/widget0_markup.html",
+		"/D/alvaro_rodriguez_free_rider.html",
+		"/D/alvaro_rodriguez_free_rider_files/widget0_markup.html",
+		"/D/Gallery.html",
+		"/D/Water_Sports_Swiss_Travel.html",
+		"/D/Water_Sports_Swiss_Travel_files/widget0_markup.html",
+		"/D/index.html",
 		"/D/xampp/htdocs/testanimation/index.html",
 		"/D/xampp/htdocs/ondabrava/admin/videoteca.php",
 		"/D/xampp/htdocs/ondabrava/assets/js/main.js",
@@ -697,12 +732,9 @@
 		"/D/xampp/htdocs/ondabrava/admin/videoteca.json",
 		"/D/xampp/htdocs/ondabrava/assets/stylus/main.styl",
 		"/D/xampp/htdocs/ondabrava/.gitignore",
-		"/D/xampp/php/php.ini",
 		"/C/Users/Alonso/dbname.sql",
-		"/D/xampp/htdocs/ondabrava/index.html",
 		"/D/xampp/htdocs/ondabrava/assets/css/main.css",
 		"/D/xampp/htdocs/ondabrava/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
-		"/D/xampp/htdocs/ondabrava/videoteca.html",
 		"/D/web.config",
 		"/D/application.xml",
 		"/D/xampp/htdocs/diamantetemplate/index.html",
@@ -805,18 +837,7 @@
 		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-solutions/part11/js/app.js",
 		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/models.js",
 		"/C/xampp/htdocs/movil_backbone/index.html",
-		"/C/xampp/htdocs/movil_backbone/index.php",
-		"/D/Documents/dumps/contact3.0.sql",
-		"/C/xampp/htdocs/contacts3.0/public/.htaccess",
-		"/C/xampp/htdocs/contacts3.1/app/controllers/V1/AuthController.php",
-		"/C/xampp/htdocs/contacts3.0/app/controllers/V1/AuthController.php",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/app.js",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/EmployeeListView.js",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/HomeView.js",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/server/server.js",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/server/routes/employees.js",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/readme.md",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/lib/pageslider.js"
+		"/C/xampp/htdocs/movil_backbone/index.php"
 	],
 	"find":
 	{
@@ -834,6 +855,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"110px",
+			"Chontalito_Trophy",
+			"Chontalito_Trophy_files",
+			"shapeImage_1",
+			"Promo_Ride_Finca_Chamaritas",
+			"Ride_Finca_Chamaritas",
+			"Ride_Finca_Chamaritas_files",
 			"</td>",
 			"<td>",
 			"d",
@@ -954,14 +982,7 @@
 			"hentry",
 			"form-allowed-tags",
 			".border-",
-			"#logo",
-			"shape",
-			"Shape",
-			"shape",
-			"Niños",
-			"niños",
-			"123",
-			"loader"
+			"#logo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1008,14 +1029,192 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 12677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1593,
+								1808
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								375
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -1048,6 +1247,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "ondabrava.sublime-project",
 	"replace":
 	{
@@ -1057,6 +1257,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1421,15 +1622,28 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"fr",
+				"",
+				"D:\\xampp\\htdocs\\radiozonaalta\\zonaalta.sublime-project"
+			],
+			[
+				"zo",
+				"D:\\xampp\\htdocs\\radiozonaalta\\zonaalta.sublime-project"
+			],
+			[
+				"zona",
+				"D:\\xampp\\htdocs\\radiozonaalta\\zonaalta.sublime-project"
+			],
+			[
+				"fra",
 				"D:\\xampp\\htdocs\\framecr\\frame.sublime-project"
 			],
 			[
-				"",
-				"D:\\xampp\\htdocs\\ondabrava\\ondabrava.sublime-project"
+				"fr",
+				"D:\\xampp\\htdocs\\framecr\\frame.sublime-project"
 			],
 			[
 				"guana",
@@ -1461,6 +1675,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
