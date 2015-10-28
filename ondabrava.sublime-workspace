@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12677,
+				"buffer_size": 12724,
 				"line_ending": "Unix"
 			}
 		},
@@ -710,11 +710,16 @@
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/diamante/app/config/database.php",
+		"/D/xampp/htdocs/diamante/app/config/mail.php",
+		"/D/Proyectos/.htaccess",
+		"/D/Downloads/configuration.php",
+		"/D/xampp/htdocs/ondabrava/index.html",
+		"/D/xampp/htdocs/ondabrava/assets/js/main.js",
 		"/D/xampp/php/php.ini",
 		"/C/Users/Alonso/Desktop/.env",
 		"/D/.env",
 		"/D/Downloads/Compressed/diamanteecoadventures.sql/diamanteecoadventures.sql",
-		"/D/xampp/htdocs/ondabrava/index.html",
 		"/D/xampp/htdocs/ondabrava/videoteca.html",
 		"/D/RitmoDigital.html",
 		"/D/widget0_markup.html",
@@ -726,7 +731,6 @@
 		"/D/index.html",
 		"/D/xampp/htdocs/testanimation/index.html",
 		"/D/xampp/htdocs/ondabrava/admin/videoteca.php",
-		"/D/xampp/htdocs/ondabrava/assets/js/main.js",
 		"/D/xampp/htdocs/suenos/assets/js/admin.js",
 		"/D/xampp/htdocs/ondabrava/admin/operaciones.php",
 		"/D/xampp/htdocs/ondabrava/admin/videoteca.json",
@@ -774,7 +778,6 @@
 		"/D/xampp/htdocs/blogavotz/wp-content/themes/avotz/languages/es_ES.po",
 		"/D/xampp/htdocs/blogavotz/wp-content/themes/avotz/languages/es_ES.mo",
 		"/D/.htaccess",
-		"/D/Proyectos/.htaccess",
 		"/C/Users/Alonso/AppData/Local/Temp/Rar$DIa0.891/application.xml",
 		"/D/Proyectos/AVOTZ/enerycontrol/energy control/consulting_ficheros/protected/application.xml",
 		"/D/github.php",
@@ -834,10 +837,7 @@
 		"/C/xampp/htdocs/contacts3.0/public/js/views.js",
 		"/C/xampp/htdocs/movil_backbone/js/collections.js",
 		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-solutions/part11/js/services/json/EmployeeService.js",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-solutions/part11/js/app.js",
-		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-backbone/js/models.js",
-		"/C/xampp/htdocs/movil_backbone/index.html",
-		"/C/xampp/htdocs/movil_backbone/index.php"
+		"/D/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/solutions/directory-solutions/part11/js/app.js"
 	],
 	"find":
 	{
@@ -1029,7 +1029,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1038,15 +1038,15 @@
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 12677,
+						"buffer_size": 12724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1593,
-								1808
+								10452,
+								12124
 							]
 						],
 						"settings":
@@ -1054,21 +1054,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1079,6 +1064,21 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1089,36 +1089,36 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 513.0,
+						"translation.y": 5508.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1134,30 +1134,16 @@
 						"selection":
 						[
 							[
-								270,
-								375
+								3180,
+								3180
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1168,6 +1154,21 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1178,35 +1179,35 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2592.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1622,9 +1623,21 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "mun",
 		"selected_items":
 		[
+			[
+				"mun",
+				"D:\\xampp\\htdocs\\municipalliberia\\municipalliberia.sublime-project"
+			],
+			[
+				"muni",
+				"D:\\xampp\\htdocs\\municipalliberia\\municipalliberia.sublime-project"
+			],
+			[
+				"pur",
+				"D:\\xampp\\htdocs\\puravida\\puravida.sublime-project"
+			],
 			[
 				"",
 				"D:\\xampp\\htdocs\\radiozonaalta\\zonaalta.sublime-project"
